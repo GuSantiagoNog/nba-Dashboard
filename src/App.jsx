@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "index.css";
-import hawksLogo from 'img/hawks.png';
+import hawksLogo from './img/hawks.png';
 import bostonLogo from 'img/boston.png';
 import brooklynLogo from 'img/brooklyn.png';
 import hornetsLogo from 'img/hornets.png';
@@ -57,7 +57,7 @@ const teams = [
   { name: "Orlando Magic", color: "#0077C0", logo: magicLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Philadelphia 76ers", color: "#006BB6", logo: sixersLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Phoenix Suns", color: "#1D1160", logo: sunsLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
-  { name: "Portland Trail Blazers", color: "#E03A3E", logo: trailBlazersLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
+  { name: "Portland Trail Blazers", color: "#E03A3E", logo: trailblazersLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Sacramento Kings", color: "#5A2D81", logo: kingsLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "San Antonio Spurs", color: "#B6BFBF", logo: spursLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Toronto Raptors", color: "#CE1141", logo: raptorsLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
