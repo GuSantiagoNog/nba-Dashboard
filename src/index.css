@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url(/img/quadra.png);
+  background-image: url(./img/quadra.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
