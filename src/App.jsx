@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "index.css";
-import hawksLogo from './img/hawks.png';
+import hawksLogo from 'img/hawks.png';
 import bostonLogo from 'img/boston.png';
 import brooklynLogo from 'img/brooklyn.png';
 import hornetsLogo from 'img/hornets.png';
@@ -31,8 +31,6 @@ import raptorsLogo from 'img/raptors.png';
 import jazzLogo from 'img/jazz.png';
 import wizardsLogo from 'img/wizards.png';
 const teams = [
-  { name: "Atlanta Hawks", color: "#E03A3E", logo: hawksLogo, iframes: [
-      [
   { name: "Atlanta Hawks", color: "#E03A3E", logo: hawksLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Boston Celtics", color: "#007A33", logo: bostonLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
   { name: "Brooklyn Nets", color: "#000000", logo: brooklynLogo, iframes: [ "https://app.powerbi.com/reportEmbed?reportId=7322704c-e41e-4730-b94c-801a7d7f1bb7&autoAuth=true&ctid=d987bd71-a5f1-44e3-bb25-e111ab6ffa13" ] },
