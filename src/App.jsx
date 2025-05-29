@@ -22,7 +22,7 @@ import pelicansLogo from './img/pelicans.png';
 import knicksLogo from './img/knicks.png';
 import thunderLogo from './img/thunder.png';
 import magicLogo from './img/magic.png';
-import sixersLogo from './img/76ers.png';
+import sixersLogo from './img/sixers.png';
 import sunsLogo from './img/suns.png';
 import trailblazersLogo from './img/trailblazers.png';
 import kingsLogo from './img/kings.png';
