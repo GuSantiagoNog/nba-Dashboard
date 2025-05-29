@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "index.css";
+import "src/index.css";
 import hawksLogo from './img/hawks.png';
 import bostonLogo from '/img/boston.png';
 import brooklynLogo from 'img/brooklyn.png';
