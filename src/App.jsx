@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "index.css";
-import hawksLogo from 'img/hawks.png';
-import bostonLogo from 'img/boston.png';
+import hawksLogo from './img/hawks.png';
+import bostonLogo from './img/boston.png';
 import brooklynLogo from 'img/brooklyn.png';
 import hornetsLogo from 'img/hornets.png';
 import bullsLogo from 'img/bulls.png';
